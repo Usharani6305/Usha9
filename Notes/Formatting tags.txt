@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1> Tags </h1>
+<p>Lorem ipsum dolor sit amet <strong>consectetur</strong>, <ins>adipisicing</ins> elit. <em>Blanditiis</em> <del>quas</del>quas rerum ex eum incidunt praesentium minima perferendis <sub>harum delectus</sub>, <sup>velit</sup>velit tenetur in quaerat quo tempora quibusdam tempore quam corporis aliquam!</p>
+<address>Mainroad,Singupuram</address>
+<pre>
+    Johny Johny Yes papa😂                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    Eating Sugar No papa
+</pre>
+<code>Syntax</code>
+<kbd><Ctrl>Blanditiis00</Ctrl>
+<!--  --></kbd>
+</body>
+</html>
