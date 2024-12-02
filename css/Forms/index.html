@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title >login form</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/295/295128.png">
+       <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: linear-gradient(62deg,#bd679f 40%,#add8e6 70%,#ee79af 10%);
+        
+        }
+        form{
+            background-color:rgb(60, 179, 239);
+            border-radius: 20px;
+            height: 350px;
+            padding: 10px;
+            box-sizing:content-box;
+            margin-top: 50px
+        }
+       .nana{
+        height: 600px;
+        width: 350px;
+        color: black;
+        margin: auto;
+        border: 1px sold black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+       }
+       button{
+            width: 250px;
+            border-radius: 15px;
+           margin-left: 50px;
+           font-size: medium;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           padding-top: 5px;
+           padding-bottom: 5px;
+          }
+     h2{
+        margin: 10%;
+        text-align: center;
+        font-size:larger;
+        text-decoration: underline;
+     }
+.nn{
+     color:black;
+    text-align: center;
+
+}
+span{
+    color: white;
+    font-style: normal;
+}
+p{
+    
+    /*margin: 40px;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;*/
+    text-align: center;
+    padding: 10px;
+
+}
+.nice{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 15px;
+   
+}
+.po{
+    border-radius: 10px;
+}
+
+    </style>
+
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div class="nana">
+        <form action="main.py" method="post">
+        <h2><i class="fa-solid fa-right-to-bracket"></i><b> Login</b></h2>
+                <div><i class="fa-solid fa-user"></i>
+                <label for="un">Enter Username:</label>
+                <input type="text" name="un" id="un" pattern="[A-Z]{4,}" title="Username shouldbe all Capitals"required>
+              </div><br> 
+              <div><i class="fa-solid fa-lock"></i>
+                    <label for="pwd">Enter Password:</label>
+                    <input type="password" name="pwd" id="pwd" minlength="6" maxlength="12" title="password lenght should be maximum 12">
+                </div><br>
+                <div class="nn">
+                 <input type="checkbox" name="ch" id="ch">
+                <label for="ch">Forgot Password</label>
+            </div><br>
+            
+                    <button>Login</button>
+                    <p>Don't have a account? <span>signup</span></p>
+                    <p class="nice">Need help?</p>
+        
+           
+        </form>
+    </div>
+</body>
+</html>
