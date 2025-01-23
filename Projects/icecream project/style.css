@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: #fa4075b1;
+    }
+.image1{
+    padding: 50px 50px;
+    margin-left: 100px;
+    height: 500px;
+    width: 400px;
+    
+}
+header{
+    font-family: cursive;
+    color: deeppink;
+     display: flex;
+     justify-content: space-between;
+    }   
+    .menu ul li{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        list-style: none;
+
+    }

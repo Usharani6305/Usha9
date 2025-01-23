@@ -1,0 +1,52 @@
+/* div{
+    text-align: center;
+    font-size: 48px;
+    animation: rotate 3s ease-in-out infinite alternate;
+}
+@keyframes rotate {
+    0%{
+        transform: scale(1.5);
+    }
+    40%{
+        opacity: 1;
+    }
+    80%{
+        transform: translateX(200px) translateZ(200px);
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+body{
+    background-color: rgb(176, 124, 225);
+    .color-change-2x {
+        -webkit-animation: color-change-2x 2s linear infinite alternate both;
+                animation: color-change-2x 2s linear infinite alternate both;
+    
+}
+}
+@-webkit-keyframes color-change-2x{
+    0%{
+        background-color: #19dcea;
+    }
+    100%{
+        background-color: rebeccapurple;
+    }
+}
+@keyframes color-change-2x {
+    0%{
+        background-color: #19dcea;
+    }
+    100%{
+        background-color: rebeccapurple;
+    }
+} */
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.box{}
